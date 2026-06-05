@@ -1,4 +1,29 @@
 baseURL = 'https://example.org/'
 theme = "PaperMod"
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Something Something'
+
+[params]
+defaultTheme = "dark"
+
+[params.profileMode]
+enabled = true
+title = "Systems & Software Engineering"
+subtitle = "Focusing on OS Internals, Concurrency, and Distributed Systems."
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 10
+
+[[menu.main]]
+name = "Research"
+url = "/research/"
+weight = 20
+
+[[menu.main]]
+name = "Weekly Logs"
+url = "/weekly/"
+weight = 30
+
+
