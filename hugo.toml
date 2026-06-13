@@ -1,29 +1,47 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://n0th9ng2311.github.io/'
 theme = "PaperMod"
 locale = 'en-us'
-title = 'Something Something'
+title = 'n0th9ng2311 | Systems Portfolio'
 
 [params]
-defaultTheme = "dark"
+    defaultTheme = "dark"
+    env = "production"
 
 [params.profileMode]
-enabled = true
-title = "Systems & Software Engineering"
-subtitle = "Focusing on OS Internals, Concurrency, and Distributed Systems."
+    enabled = true
+    title = "n0th9ng2311"
+    subtitle = "Learning Systems & Software Engineering — Dissecting OS Internals, Concurrency, and Distributed Systems."
+    imageUrl = "https://github.com/n0th9ng2311.png"
+    imageWidth = 150
+    imageHeight = 150
+
+    [[params.profileMode.buttons]]
+        name = "Low-level Projects"
+        url = "/projects/"
+
+    [[params.profileMode.buttons]]
+        name = "Research Papers"
+        url = "/research/"
 
 [[menu.main]]
-name = "Projects"
-url = "/projects/"
-weight = 10
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
 
 [[menu.main]]
-name = "Research"
-url = "/research/"
-weight = 20
+    name = "Research"
+    url = "/research/"
+    weight = 20
 
 [[menu.main]]
-name = "Weekly Logs"
-url = "/weekly/"
-weight = 30
+    name = "Weekly Logs"
+    url = "/weekly/"
+    weight = 30
 
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/n0th9ng2311"
 
+[[params.socialIcons]]
+    name = "email"
+    url = "mailto:your-email@domain.com"
